@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    /* background-image: url(img/img6.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: auto;
+ */
+    background: black;
+}
+.register{
+    background: url(../images/bg.jpg) no-repeat;
+    color:pink;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    text-align: center;
+}
+
+.register form{
+    font-family: 'Lato', sans-serif;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.register form .inputBox{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.register form .inputBox input, 
+.register form textarea{
+    font-family: 'Lato', sans-serif;
+    height: 4rem;
+    width: 49%;
+    background: #222;
+    color: var(--white);
+    font-size: 2rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    border: none;
+}
+
+.register form .inputBox input:focus, 
+.register form textarea:focus{
+    background: #383838;
+    font-family: 'Lato', sans-serif;
+}
+
+.register form textarea{
+    height: 20rem;
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+}
+
+.t1:hover{
+    color: white;
+    box-shadow: 10px 10px 8px blue;
+}
+.btn{
+	padding: 0.6rem 1.5rem;
+	cursor: pointer;
+	outline: none;
+	border: 1.4px solid black;
+
+}
+.btn{
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 2px;
+	margin-top: 2rem;
+	color: white;
+	background-color: #ec4141;
+	border: 1.4px solid #ec4141;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: all 0.5s linear;
+    text-decoration: none;
+}
+
+.btn:hover{
+	background-color: transparent;
+}
+.btna{
+	text-decoration: none;
+}
+.btna:visited{
+	color: white;
+}

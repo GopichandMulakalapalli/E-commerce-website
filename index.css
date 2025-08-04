@@ -1,0 +1,252 @@
+#main{
+    background-color:aliceblue;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#webName{
+    color:rgb(0, 0, 0);
+}
+.WebHead{
+    display: flex;
+    background-color:#34b4eb;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 25px;
+}
+.WebHead .logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+}
+.block1{
+    display: grid;
+    border-radius:33px;
+    background-color:#ffffff;
+    padding: 30px;
+    margin: 40px 50px;
+   
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+}
+
+
+.ItemImg{
+    padding:10px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 6cm;
+}
+.disc{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size:x-large;
+}
+
+.buyBut{
+    width: 100px;
+    height: 30px;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color:khaki; */
+    border: 2px solid black;
+    color:black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+  color:green;
+}
+
+.soonCont{
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    position:relative;
+    bottom: 0;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(3, 180, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(85, 85, 85);
+  }
+
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-safe-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+#cartbut{
+    background-color:red;
+    width:100px;
+    height:100px;
+}

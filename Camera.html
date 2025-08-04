@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<center>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <title>Tech Caffe</title>
+</head>
+<body id="main">
+    <div class="WebHead">
+        <div class="logo" >
+            <a href="web.html"><img src="images/logo.PNG" alt="" style="width: 300px;height: 200px;margin-top: 2%;"></a>
+        </div>
+        <div class="webName">
+            <h1 id="webName">Photagrapy Can Light Up Darkness</h1>
+        </div>
+    </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-sort-asc"></i></button>
+
+    <div class="books">
+        <div class="block1">
+            <img class="ItemImg" src="images/camera1.jpeg" alt="imageNotFound">
+            <p class="disc"><b>Name:</b>Canon
+            <br><b>Model Name</b>EOS 1500D
+            <br><b>Effective Still Resolution:</b>43.7
+            <br><b>Color:</b>Black
+            <br><b>Price:</b>37,988</p>
+            <a href="Buy.html" target="_blank" class="buyBut">Buy Now</a>
+        </div>
+        <div class="block1">
+            <img class="ItemImg" src="images/cam2.jpeg" alt="imageNotFound">
+            <p class="disc"><b>Name:</b>Nikon
+                <br><b>Model Name </b>Digital Camera
+                <br><b>Form Factor:</b>DSLR
+                <br><b>Connector Type:</b>USB
+                <br><b>Price:</b>1,44,990</p>
+            <a href="Buy.html" target="_blank" class="buyBut">Buy Now</a>
+        </div>
+        <div class="block1">
+            <img class="ItemImg" src="images/cam3.jpeg" alt="imageNotFound">
+            <p class="disc"><b>Name:</b>Nikon
+                <br><b>Model Name</b>Nikon Z 7
+                <br><b>Diaplay Size:</b>85.6cm (33inches)
+                <br><b>Connector Type:</b>Bluetooth, Wi-Fi, HDMI
+                <br><b>Price:</b>1,75,000</p>
+            <a href="Buy.html" target="_blank" class="buyBut">Buy Now</a>            
+        </div>
+        <div class="block1">
+            <img class="ItemImg" src="images/cam4.jpeg" alt="imageNotFound">
+            <p class="disc"><b>Name:</b>Canon
+                <br><b>Model Name</b>Canon EOS
+                <br><b>Shooting Modes:</b>Automatic
+                <br><b>Effective Still:</b>32.5
+                <br><b>Price:</b>1,16,990</p>
+            <a href="Buy.html" target="_blank" class="buyBut">Buy Now</a>
+        </div>
+        <div class="block1">
+            <img class="ItemImg" src="images/cam5.jpeg" alt="imageNotFound">
+            <p class="disc"><b>Name:</b>Panasonic
+                <br><b>Model Name:</b>G Series
+                <br><b>Effective Still Resolution:</b>16 MP
+                <br><b>Photo Sensor Size:</b>Micro Four Thirds
+                <br><b>Price:</b>42,489</p>
+            <a href="Buy.html" target="_blank" class="buyBut">Buy Now</a>
+        </div>        
+      
+    </div>
+
+    
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+          <h3>The Tech Caffe</h3>
+      
+          <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+          </p>
+      
+          <p class="footer-company-name">The Tech Caffe</p>
+        </div>
+      
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Vijayawada</span>
+              A.P</p>
+          </div>
+      
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+91-12345 06789</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto">gopi11@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <p class="footer-safe-about">
+            <span>About our Website</span>
+              ---------------------------------------------------------
+              -----------------------------------------------------------
+              -----------------------------------------------------------
+              -----------------------------------------------------------
+          </p>
+          <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="web.jsp">user_Home_Page</a>
+          </div>
+        </div>
+      </footer>
+      <script >
+        let mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+      </script>
+
+</body>
+</center>
+</html>

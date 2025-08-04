@@ -1,0 +1,50 @@
+#main{
+    background-color:aliceblue;
+}
+#webName{
+    color:rgb(0, 0, 0);
+}
+#name{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#phoneNumber{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#Address{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.textContent{
+    font-weight: 700;
+}
+.buy{
+    grid-row: 2/3;
+    font-size:x-large;
+    background-color:lavenderblush;
+    border: 2px solid black;
+    padding: 100px 150px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.btn{
+    background: rgb(124, 255, 112);
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+    margin-top: -50px;
+    border-radius: 4px;
+    width: 20%;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.2);
+}
+.btn:hover{
+    background: rgb(21, 255, 0);
+}
